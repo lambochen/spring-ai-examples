@@ -6,7 +6,7 @@
 
     <groupId>club.lambochen.demo</groupId>
     <artifactId>spring-ai-examples</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <developers>
@@ -16,5 +16,9 @@
             <url>https://github.com/lambochen</url>
         </developer>
     </developers>
+
+    <modules>
+        <module>helloworld</module>
+    </modules>
 
 </project>

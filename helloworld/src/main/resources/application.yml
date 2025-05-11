@@ -1,0 +1,6 @@
+
+spring:
+  ai:
+#    https://docs.spring.io/spring-ai/reference/api/chat/zhipuai-chat.html
+    zhipuai:
+      api-key: ${SPRING_AI_ZHIPU_AI_API_KEY}
