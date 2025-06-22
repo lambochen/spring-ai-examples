@@ -1,4 +1,4 @@
-package club.lambochen.demo;
+package io.github.lambochen;
 
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.boot.CommandLineRunner;
@@ -19,9 +19,9 @@ public class Main {
         return args -> {
             ChatClient client = builder.build();
             Scanner scanner = new Scanner(System.in);
-            System.out.println("欢迎访问AI助手！");
+            System.out.println("WELCOME TO THE AI ASSISTANT！");
             while (true) {
-                System.out.print("请输入：");
+                System.out.print("PLEASE ENTER：");
                 String prompt = scanner.nextLine();
                 System.out.println("AI: " + client.prompt(prompt).call().content());
             }

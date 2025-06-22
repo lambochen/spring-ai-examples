@@ -3,4 +3,7 @@ spring:
   ai:
 #    https://docs.spring.io/spring-ai/reference/api/chat/zhipuai-chat.html
     zhipuai:
-      api-key: ${SPRING_AI_ZHIPU_AI_API_KEY}
+      api-key: ${SPRING_AI_ZHIPUAI_API_KEY}
+      chat:
+        options:
+          model: GLM-4-Flash-250414 # https://open.bigmodel.cn/dev/activities/free/glm-4-flash
